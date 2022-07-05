@@ -9,6 +9,7 @@
     letter-spacing: 0.02em;
     
     color: #212121;
+    text-decoration: none;
 }
 
 .WebStudio {
@@ -22,7 +23,7 @@ line-height: 31px;
 letter-spacing: 0.03em;
 
 color: #2196F3;
-text-decoration: none
+text-decoration: none;
 }
 
 .header {
@@ -34,6 +35,7 @@ line-height: 16px;
 letter-spacing: 0.02em;
 
 color: #212121;
+text-decoration: none;
 }
 
 .header:hover {
@@ -141,11 +143,12 @@ color: #FFFFFF;
 h3 {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     
     color: #212121;
 }
@@ -256,6 +259,7 @@ line-height: 31px;
 /* identical to box height */
 
 letter-spacing: 0.03em;
+text-decoration: none;
 }
 
 .p6 {
@@ -274,4 +278,37 @@ color: #FFFFFF;
 
 .ht {
     color: #000000;
+}
+
+.WebS {
+    display: flex;
+    flex-direction: row;
+}
+
+.li2 {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
+text-decoration: none;
+
+}
+
+.inline {
+    display: inline;
+}
+
+.two {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
